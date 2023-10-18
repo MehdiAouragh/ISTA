@@ -38,14 +38,15 @@
                 android:text="button"
                 />
         </LinearLayout>
+
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/profile"
-            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginLeft="170dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="image1"/>
+            android:background="@color/white"
+            android:contentDescription="image1"
+            android:src="@drawable/profile" />
 
     </LinearLayout>
         <LinearLayout
