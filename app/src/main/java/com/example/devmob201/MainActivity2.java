@@ -1,9 +1,8 @@
 package com.example.devmob201;
 
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
-import androidx.appcompat.app.AppCompatActivity;;
 
 public class MainActivity2 extends AppCompatActivity {
 
