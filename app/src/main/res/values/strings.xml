@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DEV MOB 201</string>
+    <string name="submit">Submit</string>
+    <string name="go_back">go back</string>
+    <string name="learning">Learning:</string>
+    <string name="todo">TODO</string>
+    <string name="learn">LEARN</string>
 </resources>
