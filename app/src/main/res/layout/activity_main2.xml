@@ -31,4 +31,15 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true" />
 
+    <Button
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
 </RelativeLayout>
