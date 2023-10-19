@@ -10,7 +10,6 @@ import android.widget.Button;
 
 public class MainActivity3 extends AppCompatActivity {
     private Button retourner;
-    private Button hi;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -18,18 +17,11 @@ public class MainActivity3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
         retourner=findViewById(R.id.bb);
-        hi=findViewById(R.id.d);
 
         retourner.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent( MainActivity3.this,MainActivity.class));
-            }
-        });
-        hi.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity3.this,MainActivity.class));
             }
         });
     }
