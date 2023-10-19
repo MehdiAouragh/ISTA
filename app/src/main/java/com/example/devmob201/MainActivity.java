@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
     private Button button;
-    private ImageButton edit;
+    private ImageButton help;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -20,14 +20,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         button = findViewById(R.id.learn);
-        edit=findViewById(R.id.img2);
+        help=findViewById(R.id.img2);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, MainActivity2.class));
             }
         });
-        edit.setOnClickListener(new View.OnClickListener() {
+        help.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent( MainActivity.this,MainActivity3.class));
