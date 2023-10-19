@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+    <TextView
+        android:id="@+id/Titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intrests"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+    <TextView
+        android:id="@+id/Paragraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amidst the bustling urban jungle, a purple giraffe pranced gracefully down the cobblestone streets, drawing bewildered stares from passersby. Pianos played melodies of twinkling starlight while bicycles whizzed by with colorful streamers trailing behind. Bubbling laughter echoed through the air as people juggled pineapples and parrots perched on their shoulders, creating a surreal carnival of whimsy and wonder."
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/Titre"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/back3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="go back"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toTopOf="parent"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
